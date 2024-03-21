@@ -1,32 +1,42 @@
 .header {
-display:flex;
-justify-content: space-between;
-width:1052px;
-height: 105px;
-align-items: center;
-margin: 92px 24px 87px 24px;
-background-color: pink;
-column-gap: 20px;
+    display:flex;
+    position: static;
+    width:1052px;
+    height: 105px;
+    align-items: center;
+    margin: 91px 24px 86px 20px;
+    background-color: pink;
+    column-gap: 0x;
 }
 
 .header__menu-list {
     font-family: Raleway;
     font-weight: regular;
-    font-size: 18; 
+    font-size: 18px; 
     line-height: 21px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 391px;
+    width: 430px;
     height: 22px;
-gap: 26px;
+    gap: 33px;
+    margin: 15px -10px 7px -24px;
+}
+
+.header__menu-link{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .header__menu-item_active {
- list-style: none;
- width: 67px;
- height: 21px;
+    list-style: none;
+    width: 67px;
+    height: 21px;
+}
 
+.header__menu-item_active > a{
+    text-decoration: none;
 }
 
 .header__menu-item {
@@ -36,9 +46,9 @@ gap: 26px;
 }
 
 .image-logo {
-    width: 129px;
-    height: 104px;
-    margin: 2px 9px 1px 9px;
+    width: 139px;
+    height: 207px;
+    margin: 9px 191px 5px 10px;
 }
 
 .contacts {
@@ -59,39 +69,37 @@ gap: 26px;
     text-decoration: none;
     width: 237px;
     height: 49px;
+    text-decoration:overline;
 }
 
 .email {
     width: 240px;
-    height: 24px;
+    height: 27px;
     color:black;
-    text-decoration: underline;
+    line-height: 28px;
+    text-decoration:  overline;
 }
 
 .phone {
-    width: 240px;
-    height: 24px;
-   line-height: 20px;
-   text-decoration: underline;
-    
-    
+    width: 249px;
+    height: 23px;
+    line-height: 27px;
+    text-decoration: underline;
 }
     
-
-
 
 .cover { 
-padding: 0px 0px 0;
-width: 1092px;
-height: 757px;
-background-image: url(/images/cover.jpg);
-background-size: 1100px 757px;
-background-repeat: no-repeat;
+    padding: 0px 0px 0;
+    width: 1092px;
+    height: 757px;
+    background-image: url(/images/cover.jpg);
+    background-size: 1100px 757px;
+    background-repeat: no-repeat;
 }
 
-.cover__title{
+.cover__title {
     margin:auto;
-   padding: 152px 42px 147px 57px;
+    padding: 153px 42px 136px 47px;
     width:993px;
     height:368px;
     align-items: center;
@@ -103,50 +111,48 @@ background-repeat: no-repeat;
     text-transform:uppercase;
     display:block;
     gap:10px;
-   
 }
 
-.aligned-text{
-    padding: 5px 730px 5px 0px;
+.aligned-text {
+    margin: 9px 734px -2px -10px;
    width: 316px;
    height: 115px;
-   
 }
 
-.no-letter-spacing{
-letter-spacing: 30px;
+.no-letter-spacing {
+letter-spacing: 31px;
 }
 
 .aligned-text_center {
-    padding:25px 387px 0 270px;
+    padding:25px 387px 0 268px;
    width:369px;
    height:100px;   
 }
 
 .aligned-text_right {
-    padding: 18px 0 50px  570px;
+    margin: 21px 0 50px  570px;
     text-align: right;
     width:430px;
     height:100px; 
 }
 
-.letter-spacing-extended_last{
+.letter-spacing-extended_last {
     text-align: left;
-    letter-spacing: 30px;
+    letter-spacing: 34px;
 }
 
 .no-letter-spacing-last {
-    letter-spacing: 26px;
+    letter-spacing: 25px;
 }
 
 
 .cover__description {
-    padding: 0 42px 50px 57px;
+    padding: 0 43px 50px 62px;
     display:flex;
-  width: 972px;
-  height: 51px;
-   justify-content: space-between;
-   font-family: Raleway;
+    width: 984px;
+    height: 51px;
+    justify-content: space-between;
+    font-family: Raleway;
     font-style: bold;
     color: white;
     text-transform:uppercase;
@@ -154,36 +160,32 @@ letter-spacing: 30px;
 }
 
 .cover__description-text{  
-  color: white;
-  text-transform:uppercase;
- font-size: 22px;
- line-height: 28px;
+    color: white;
+    text-transform:uppercase;
+    font-size: 22px;
+    line-height: 28px;
  }
 
 .bet-button{
-  width: 193px;
-  height: 28px;
-  text-transform:uppercase;
-  padding: 12px 36px 11px 30px;
-  background-color: transparent;
-  color:white;
-  border-color: white;
-  font-size: 22px;
-  font-family: Raleway;
-  font-style: bold;
-  color: white;
-  text-transform:uppercase;
-  box-sizing:content-box; 
+    width: 253px;
+    height: 51px;
+    margin: -1px 15px 0px 53px;
+    background-color: transparent;
+    color:white;
+    border-color: white;
+    font-size: 22px;
+    font-family: Raleway;
+    font-style: bold;
+    color: white;
+    text-transform:uppercase;
+    box-sizing:border-box; 
 }
 
-
-
-
 .lots{
-width: 1052px;
-height: 692px;
-background-color: aqua;
-margin: 160px 24px 0 24px;
+    width: 1052px;
+    height: 692px;
+    background-color: aqua;
+    margin: 188px 11px -12px 9px;
 }
 
 .lots__heading {
@@ -197,23 +199,24 @@ margin: 160px 24px 0 24px;
     font-family: Raleway;
     margin: 0 891px 16px 40px;
 }
+
 .lots__card-list {
+    margin-top: 29px;
     width:1052px;
     height: 563px;
     background-color:blueviolet; 
     display: flex;
     gap: 25px;
-
-    
 }
+
 .lots__card-list-item {
     width: 334px;
     height: 563px;
     background-color:brown;
     flex-direction: row;
     padding: 0;
-   
 }
+
 .card_type_film {
     background-image: url(/images/card-lot-01.jpg);
     background-position:center;
@@ -231,8 +234,8 @@ margin: 160px 24px 0 24px;
     flex-direction: column;
     justify-content:space-between;
 }
-.card_type_picture {
 
+.card_type_picture {
     background-image: url(/images/card-lot-03.jpg);
     background-position:center;
     background-size: cover;
@@ -240,8 +243,8 @@ margin: 160px 24px 0 24px;
     flex-direction: column;
     justify-content:space-between;
     align-items:center;
-
 }
+
 .card__title {
     color:aliceblue;
     text-decoration: underline;
@@ -249,14 +252,14 @@ margin: 160px 24px 0 24px;
     font-family: Raleway;
     font-weight:bold;
     text-transform: uppercase;
-    padding: 51px 40px 0 40px;
+    padding: 50px 40px 27px 40px;
 }
 
 .card__text {   
     color: white;
     font-size: 20px;
     font-family: Raleway;
-    padding: 0 40px 48px 40px;
+    margin: -26px 40px 48px 40px;
 }
 
 .lots__look-more-link {
@@ -271,16 +274,14 @@ margin: 160px 24px 0 24px;
     Width: 1052px;
     height: 595px;
     background-color: blue;
-    margin: 146px 24px 180px 24px;
+    margin: 159px 19px 176px 31px;
 }
 
 .about__column {
     display:grid;
     background-color: blueviolet;
-    grid-template-columns: 334px 2fr;
-    grid-template-rows: repeat(4,135px);
-    
-   
+    grid-template-columns: 337px 2fr;
+    grid-template-rows: repeat(4,133px);
     grid-template-areas:
     "about__logo ."
     "about__logo about__title"
@@ -293,9 +294,9 @@ margin: 160px 24px 0 24px;
     width: 240px;
     height: 240px;
     grid-area:about__logo;
-  margin:35px 0 0 47px;
- border-radius: 50%;
- z-index: 1;
+    margin:35px 0 0 24px;
+    border-radius: 50%;
+    z-index: 1;
 }
 .about__logo-image {
     width: 141px;
@@ -323,13 +324,13 @@ margin: 160px 24px 0 24px;
 
 .footer {
     width: 1000px;
-    height: 98px;
+    height: 97px;
     background-color: pink;
-margin: 0px 0 88px 50px;
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-
+    padding: 3px 1px 0 0;
+    margin: 6px 0 38px 36px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer__menu-list {
@@ -344,22 +345,32 @@ justify-content: space-between;
     height: 64px;
     list-style: none;
     margin:0;
+    text-decoration: none;
 }
 
 .footer__menu-item_active {
- width: 67px;
- height: 21px;
- align-items:center;
-}
-
-.footer__menu-item {
-    width: 149px;
-    height: 22px;
+    width: 105px;
+    height: 18px;
     align-items:center;
 }
 
+.footer__menu-item {
+    width: 195px;
+    height: 55px;
+    letter-spacing: 1px;
+    margin: 8px -8px 1px 1px;
+    align-items:center;
+    text-decoration: none;
+    color: black;
+}
 
-
+.footer__menu-item_small {
+    width: 157px;
+    height: 55px;
+    letter-spacing: 1px;
+    margin: -2px -8px 1px 1px;
+    align-items:center;
+}
 
 .contacts {
     display: flex;
@@ -370,7 +381,6 @@ justify-content: space-between;
     font-family: Raleway;
     font-size: 18px;
     line-height: 24px;
-   
 }
 
 .address {
@@ -405,12 +415,8 @@ justify-content: space-between;
 }
 
 .footer__social-icon {
-   
     width: 46px;
     height: 46px;
-    background-color: blue;
-    
-    
-    
+    background-color: blue;    
 }
 
