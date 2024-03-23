@@ -25,7 +25,6 @@
         </li>
       </ul>
     </nav>
-    </div>
     <a class="header-logo">
       <img class="image-logo" src="./images/logo-black.svg" alt="логотип проекта">
     </a>
@@ -34,23 +33,23 @@
       <a class="email" href="mailto:mail@example.com">info@sobaka.ge</a>
       <address class="address">наб. Принсенграхт 263- 265, Амстердам</address>
     </div>
-
   </header>
   <main>
-    <section class="cover overlay">
+    <section class="cover">
+      <div class="overlay_cover">
       <h1 class="cover__title">
-        <div class="aligned-text letter_spacing">
+        <span class="aligned-text letter_spacing">
           <span class="no-letter-spacing">он</span>
           <span class="letter-spacing-extended">о</span>
-        </div>
-        <div class="aligned-text_center">
+        </span>
+        <span class="aligned-text_center">
           <span class="no-letter-spacing">теб</span>
           <span class="letter-spacing-extended">е</span>
-        </div>
-        <div class="aligned-text_right">
+        </span>
+        <span class="aligned-text_right">
           <span class="letter-spacing-extended letter-spacing-extended_last">н</span>
           <span class="no-letter-spacing no-letter-spacing-last">адо</span>
-        </div>
+        </span>
       </h1>
       <div class="cover__description">
         <span class="cover__description-text">Аукцион</span>
@@ -62,45 +61,49 @@
         <span class="cover__description-text">верил</span>
         <span class="cover__description-text">
           <button class="bet-button">Сделать ставку</button></span>
-      </div>
+      </div></div>
     </section>
 
     <section class="lots">
       <h2 class="lots__heading">Лоты</h2>
       <div class="lots__card-list">
-        <div class="lots__card-list-item card_type_film">
+        <div class=" card_type_film">
+          <div class=" lots__card-list-item overlay_cards">
           <div class="card__title">
-            <link href="#0">Фильм режиссёра, который бросил киношколу</link>
+            <a class="lots_card-list-item-link" href="#0">Фильм режиссёра, который бросил киношколу</a>
           </div>
           <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
             знали, что режиссёр — Пол Томас Андерсон?</p>
-        </div>
-        <div class="lots__card-list-item card_type_book">
+            </div>
+          </div>
+          <div class="card_type_book">
+            <div class="lots__card-list-item overlay_cards">
           <div class="card__title">
-            <link href="#0">Книга, где описан один скучный день из жизни рекламного агента</link>
+            <a class="lots_card-list-item-link" href="#0">Книга, где описан один скучный день из жизни рекламного агента</a>
           </div>
           <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
             древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с
             античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-            Джеймса Джойса?</p>
-        </div>
-        <div class="lots__card-list-item card_type_picture">
+            Джеймса Джойса?</p></div>
+          </div>
+        <div class="card_type_picture">
+          <div class="lots__card-list-item overlay_cards">
           <div class="card__title">
-            <link href="#0">Картина, которую повторит даже 5-летний сын маминой подруги</link>
+            <a class="lots_card-list-item-link" href="#0">Картина, которую повторит даже 5-летний сын маминой подруги</a>
           </div>
           <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
             инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что
-            это — одна из революционных работ Кандинского?</p>
-        </div>
+            это — одна из революционных работ Кандинского?</p></div>
+          </div>
       </div>
       <div class="lots__look-more-link">
-        <link href="#0">посмотреть больше</link>
+        <a href="#0">посмотреть больше</a>
       </div>
     </section>
     <section class="about">
       <div class="about__column">
         <div class="about__logo">
-          <img class="about__logo-image" src="/images/logo-white.svg"></img>
+          <img class="about__logo-image" src="/images/logo-white.svg" alt="логотип"/>
         </div>
         <div class="about__title">Об аукционе</div>
         <div class="about__text">
@@ -126,14 +129,14 @@
     </div>
     <nav class="footer_menu">
       <div class="footer_menu">
-        <ul class=" footer__menu-list">
+        <ul class="footer__menu-list">
           <li class="footer__menu-item_active">
             <a class="footer__menu-link">главная</a>
           </li>
           <li class="footer__menu-item">
             <a class="footer__menu-link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="footer__menu-item">
+          <li class="footer__menu-item_small">
             <a class="footer__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
@@ -153,11 +156,6 @@
         </a>
       </div>
     </div>
-
-
-    </div>
-
   </footer>
 </body>
-
 </html>
