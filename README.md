@@ -1,1 +1,1 @@
-оно тебе надо, задание для яндекс практикума
+https://github.com/GeminiWTF/ono-tebe-nado.git
